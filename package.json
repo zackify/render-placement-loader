@@ -1,6 +1,6 @@
 {
   "name": "render-placement-loader",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Automatically add React.render to your JSX file",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zackify/render-placement-loader/issues"
   },
-  "homepage": "https://github.com/zackify/render-placement-loader#readme"
+  "homepage": "https://github.com/zackify/render-placement-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.7"
+  }
 }

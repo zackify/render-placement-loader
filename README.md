@@ -11,4 +11,4 @@ Usage:
         loader: 'render-placement-loader'
     }
 
-Currently works with only ES6 classes
+Works with ES6 classes and `React.createClass` components. Would like to use a better regex though.
