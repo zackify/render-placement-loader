@@ -9,7 +9,7 @@ module.exports = function(source) {
 	//if it's an old school component
 	else if(source.match(/var (.*) =/)) var className = source.match(/var (.*) =/)[1]
 
-	var render = 'React.render(React.createElement(' + className + ', ' + JSON.stringify(props || {}) + '), document.body)'
+	var render = 'React.render(React.createElement(' + className + ', ' + JSON.stringify(props) + '), document.body)'
 
 	//if replace a react render is not set to false or if there is no react render, let's add it
 	if(query.replace !== 'false' || !source.match(/\bReact.render\((.*)\)/,'')){
