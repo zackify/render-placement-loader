@@ -1,6 +1,6 @@
 {
   "name": "render-placement-loader",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Automatically add React.render to your JSX file",
   "main": "index.js",
   "scripts": {
